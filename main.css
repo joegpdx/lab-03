@@ -3,7 +3,7 @@
     background-color: black;
 }
 
-.button {
-    color: green;
+#Submit-Button {
+    background-color: rgb(34, 238, 51);
     font-weight: bold;
 }
