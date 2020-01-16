@@ -1,5 +1,5 @@
 body {
-    color: white;
+    color: rgb(34, 238, 51);
     background-color: black;
 }
 
@@ -29,6 +29,7 @@ input:checked + .radio-image {
 }
 
 p {
-    color: white;
+    color: pink;
     background-color: black;
+    font-size: 16px;
 }
