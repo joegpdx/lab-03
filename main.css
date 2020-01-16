@@ -1,9 +1,34 @@
-.body {
-    color: blue;
+body {
+    color: white;
     background-color: black;
 }
 
-#Submit-Button {
+#submit-button {
     background-color: rgb(34, 238, 51);
     font-weight: bold;
+}
+
+.hidden {
+    display: none;
+} 
+
+img {
+    border-radius: 50%;
+    padding: 10px;
+    background-color: white;
+}
+.radio-image {
+    border: 5px solid transparent;
+    width: 50px;
+}
+input {
+    display: none;
+}
+input:checked + .radio-image {
+    border: 5px solid rgb(34, 238, 51);
+}
+
+p {
+    color: white;
+    background-color: black;
 }

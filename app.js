@@ -17,6 +17,8 @@ button.addEventListener('click', () => {
     const userChoice = userInput.value;
     const computerChoice = getRandomThrow();
     const result = checkResult(userChoice, computerChoice);
+    resultImage.classList.remove('hidden');
+
     console.log('user', userChoice);
     console.log('computer', computerChoice);
     console.log(result);
@@ -25,20 +27,20 @@ button.addEventListener('click', () => {
     if (computerChoice === 'scissors') resultImage.src = 'https://www.ikea.com/us/en/images/products/sy-scissors__0112301_PE263788_S5.JPG?f=s';
     if (computerChoice === 'paper') resultImage.src = 'https://images.ctfassets.net/f1fikihmjtrp/29Ke1N1Qv2X0KsFOC4xyHd/6258f6d0581f8fa655485da0ec61cda3/10240-1009-1-3ww-l.jpg';
 
-    if (result === 'wins') {
+    if (result === 'win') {
         wins++;
         winsDisplay.textContent = wins;
         resultDisplay.classList.remove('hidden');
-        resultDisplay.textContent = 'wins';
+        resultDisplay.textContent = 'Win!!!!';
     } else if (result === 'lose') {
         lose++;
         loseDisplay.textContent = lose;
         resultDisplay.classList.remove('hidden');
-        resultDisplay.textContent = 'lose!';
+        resultDisplay.textContent = 'Lose!!!!';
     } else {
         draw++;
         drawDisplay.textContent = draw;
         resultDisplay.classList.remove('hidden');
-        resultDisplay.textContent = 'Draw!';
+        resultDisplay.textContent = 'Draw!!!!';
     }
 });
