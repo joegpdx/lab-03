@@ -1,3 +1,5 @@
+
+
 body {
     color: rgb(34, 238, 51);
     background-color: black;
@@ -6,6 +8,12 @@ body {
 #submit-button {
     background-color: rgb(34, 238, 51);
     font-weight: bold;
+    width: 75px;
+    height: 75px;
+    outline: none;
+    border-radius: 100px;
+    font-size: large;
+
 }
 
 .hidden {
@@ -28,8 +36,6 @@ input:checked + .radio-image {
     border: 5px solid rgb(34, 238, 51);
 }
 
-p {
-    color: pink;
-    background-color: black;
+.results-size {
     font-size: 16px;
 }

@@ -1,4 +1,4 @@
-import { getRandomThrow, getThrowNumber, checkResult } from './getRandomThrow.js';
+import { getRandomThrow, checkResult } from './getRandomThrow.js';
 
 const button = document.getElementById('submit-button');
 const winsDisplay = document.getElementById('wins-display');
@@ -27,16 +27,16 @@ button.addEventListener('click', () => {
         wins++;
         winsDisplay.textContent = wins;
         resultDisplay.classList.remove('hidden');
-        resultDisplay.textContent = 'Win!!!!';
+        resultDisplay.textContent = 'WIN!!!!';
     } else if (result === 'lose') {
         lose++;
         loseDisplay.textContent = lose;
         resultDisplay.classList.remove('hidden');
-        resultDisplay.textContent = 'Lose!!!!';
+        resultDisplay.textContent = 'LOSE!!!!';
     } else {
         draw++;
         drawDisplay.textContent = draw;
         resultDisplay.classList.remove('hidden');
-        resultDisplay.textContent = 'Draw!!!!';
+        resultDisplay.textContent = 'DRAW!!!!';
     }
 });
