@@ -8,11 +8,12 @@ body {
 #submit-button {
     background-color: rgb(34, 238, 51);
     font-weight: bold;
-    width: 75px;
+    width: 100px;
     height: 75px;
     outline: none;
     border-radius: 100px;
     font-size: large;
+    text-align: center;
 
 }
 
@@ -27,7 +28,7 @@ img {
 }
 .radio-image {
     border: 5px solid transparent;
-    width: 50px;
+    width: 100px;
 }
 input {
     display: none;
