@@ -15,5 +15,6 @@ export function checkResult(player, computer) {
     if (computer === player) return 'draw';
     if (computer === 'scissors' && player === 'rock') return 'win';
     else if (computer === 'rock' && player === 'paper') return 'win';
-    else if (computer === 'paper' && player === 'scissors') return 'win'; else return 'lose';
+    else if (computer === 'paper' && player === 'scissors') return 'win';
+    else return 'lose';
 }
