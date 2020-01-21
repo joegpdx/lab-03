@@ -30,9 +30,11 @@ img {
     border: 5px solid transparent;
     width: 100px;
 }
+
 input {
     display: none;
 }
+
 input:checked + .radio-image {
     border: 5px solid rgb(34, 238, 51);
 }
